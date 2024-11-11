@@ -1,0 +1,65 @@
+# Xcode-specific files
+*.xcworkspace
+*.xcuserstate
+xcuserdata/
+DerivedData/
+.idea/
+*.xcscmblueprint
+
+# Build artifacts and intermediate files
+build/
+*.ipa
+*.dSYM
+
+# Swift Package Manager
+/.build/
+.swiftpm/
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/report.xml
+
+# Temporary files and logs
+*.moved-aside
+*.swp
+*.lock
+*.log
+*.tmp
+
+# Temporary and backup files for macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon?
+Icon?
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Backup files
+*.bak
+*.bak2
+*.old
+*.orig
+*.rename
+*~

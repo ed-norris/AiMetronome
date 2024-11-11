@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F6E579292CE1862600DF36DC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F6E579282CE1862600DF36DC /* .gitignore */; };
+		F6E5792B2CE1864600DF36DC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F6E5792A2CE1864300DF36DC /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		F6E579082CDC0A8A00DF36DC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		F6E578F72CDC0A8900DF36DC /* Metronome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Metronome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6E579072CDC0A8A00DF36DC /* MetronomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetronomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6E579112CDC0A8A00DF36DC /* MetronomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetronomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6E579282CE1862600DF36DC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		F6E5792A2CE1864300DF36DC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +82,8 @@
 		F6E578EE2CDC0A8900DF36DC = {
 			isa = PBXGroup;
 			children = (
+				F6E5792A2CE1864300DF36DC /* README.md */,
+				F6E579282CE1862600DF36DC /* .gitignore */,
 				F6E578F92CDC0A8900DF36DC /* Metronome */,
 				F6E5790A2CDC0A8A00DF36DC /* MetronomeTests */,
 				F6E579142CDC0A8A00DF36DC /* MetronomeUITests */,
@@ -212,6 +221,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6E5792B2CE1864600DF36DC /* README.md in Resources */,
+				F6E579292CE1862600DF36DC /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
